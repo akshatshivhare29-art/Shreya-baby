@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine 💖</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: pink;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 25px;
+      margin: 20px;
+      cursor: pointer;
+    }
+    #fireworks {
+      display: none;
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Will you be my Valentine? 💘</h1>
+
+<button onclick="yesClicked()">YES 💖</button>
+<button onclick="alert('Think again 😅')">NO 🙈</button>
+
+<div id="fireworks">
+🎆🎇💥🎉💖🎊
+<h2>YAYYY!!! 💕</h2>
+</div>
+
+<script>
+function yesClicked() {
+  document.getElementById("fireworks").style.display = "block";
+}
+</script>
+
+</body>
+</html>
